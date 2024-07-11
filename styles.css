@@ -1,0 +1,97 @@
+﻿body {
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signUpform-content {
+    width: 400px; /* Adjust width as needed */
+    text-align: center; /* Center align content */
+}
+
+.signUpform-content label {
+        display: block;
+        width: 100%;
+        font-size: 1.5em; /* Adjust font size as needed */
+        margin-top: 20px; /* Space between elements */
+        margin-bottom: 20px; /* Space between elements */
+}
+
+.signUpform-content input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2em; /* Adjust font size as needed */
+        margin-bottom: 20px; /* Space between elements */
+}
+
+.signUpform-content .aspNetHidden {
+        display: none;
+}
+
+.signUpform-content display: none;
+}
+
+.signUpStaffform-content .signUpButton {
+    width: 50%; /* Make the button smaller */
+    padding: 10px;
+    font-size: 1em; /* Adjust font size as needed */
+    margin-top: 20px; /* Space above the button */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.questions-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Set your desired background color */
+}
+
+.questions-form-content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white; /* Adjust as needed */
+    max-width: 400px; /* Adjust maximum width as per your design */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.questions-form-content label {
+        display: block;
+        margin-bottom: 10px;
+}
+
+.questions-form-content input,
+.questions-form-content select {
+        margin-bottom: 10px;
+        padding: 8px;
+        width: 100%;
+        box-sizing: border-box;
+}
+.questions-form-content .questions-button-container {
+        text-align: center;
+        margin-top: 20px;
+}
+.questions-form-content .questions-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.questions-form-content .questions-button:hover {
+            background-color: #0056b3;
+}
+
+.radio-horizontal {
+    display: flex;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
