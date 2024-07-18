@@ -67,13 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Home.aspx" />
     <Content Include="Questions.aspx" />
-    <Content Include="StaffSignUP.aspx" />
+    <Content Include="scripts.js" />
+    <Content Include="StaffLogIn.aspx" />
+    <Content Include="StaffSignUp.aspx" />
     <Content Include="styles.css" />
     <Content Include="UserSignUp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questions.aspx.cs">
       <DependentUpon>Questions.aspx</DependentUpon>
@@ -82,12 +92,19 @@
     <Compile Include="Questions.aspx.designer.cs">
       <DependentUpon>Questions.aspx</DependentUpon>
     </Compile>
-    <Compile Include="StaffSignUP.aspx.cs">
-      <DependentUpon>StaffSignUP.aspx</DependentUpon>
+    <Compile Include="StaffLogIn.aspx.cs">
+      <DependentUpon>StaffLogIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StaffSignUP.aspx.designer.cs">
-      <DependentUpon>StaffSignUP.aspx</DependentUpon>
+    <Compile Include="StaffLogIn.aspx.designer.cs">
+      <DependentUpon>StaffLogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSignUp.aspx.cs">
+      <DependentUpon>StaffSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffSignUp.aspx.designer.cs">
+      <DependentUpon>StaffSignUp.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserSignUp.aspx.cs">
       <DependentUpon>UserSignUp.aspx</DependentUpon>

@@ -19,5 +19,7 @@ namespace iHospital
                 rblGender.Items.Add(lt);
             }*/
         }
+
+        
     }
 }

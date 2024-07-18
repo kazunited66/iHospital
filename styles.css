@@ -8,6 +8,7 @@
     height: 100vh;
 }
 
+
 .signUpform-content {
     width: 400px; /* Adjust width as needed */
     text-align: center; /* Center align content */
@@ -36,7 +37,7 @@
 }
 
 .signUpStaffform-content .signUpButton {
-    width: 50%; /* Make the button smaller */
+    width: 100%; /* Make the button smaller */
     padding: 10px;
     font-size: 1em; /* Adjust font size as needed */
     margin-top: 20px; /* Space above the button */
@@ -57,22 +58,26 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: white; /* Adjust as needed */
-    max-width: 400px; /* Adjust maximum width as per your design */
-    width: 100%;
+    max-width: 600px; /* Adjust maximum width as per your design */
+    width: 200%;
     box-sizing: border-box;
 }
 
 .questions-form-content label {
         display: block;
         margin-bottom: 10px;
+        text-align:left;
+        
 }
 
 .questions-form-content input,
 .questions-form-content select {
         margin-bottom: 10px;
         padding: 8px;
-        width: 100%;
         box-sizing: border-box;
+        margin-top: 0px;
+    text-align: left;
+    margin-left: 0px;
 }
 .questions-form-content .questions-button-container {
         text-align: center;
@@ -87,11 +92,8 @@
         cursor: pointer;
 }
 .questions-form-content .questions-button:hover {
-            background-color: #0056b3;
+        background-color: #0056b3;
 }
 
-.radio-horizontal {
-    display: flex;
-    margin-top: 10px; /* Adjust margin as needed */
-}
+
 

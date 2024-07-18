@@ -11,7 +11,7 @@ namespace iHospital
 {
 
 
-    public partial class UserSignUp
+    public partial class StaffSignUP
     {
 
         /// <summary>
@@ -24,22 +24,22 @@ namespace iHospital
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblSignUpStaff control.
+        /// lblLoginStaff control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSignUpStaff;
+        protected global::System.Web.UI.WebControls.Label lblLoginStaff;
 
         /// <summary>
-        /// lblGivenName control.
+        /// lblUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGivenName;
+        protected global::System.Web.UI.WebControls.Label lblUserName;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -51,85 +51,22 @@ namespace iHospital
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// tbxGivenName control.
+        /// tbxUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxGivenName;
+        protected global::System.Web.UI.WebControls.TextBox tbxUserName;
 
         /// <summary>
-        /// lblFamilyName control.
+        /// lblPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFamilyName;
-
-        /// <summary>
-        /// RequiredFieldValidator3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
-
-        /// <summary>
-        /// tbxFamilyName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxFamilyName;
-
-        /// <summary>
-        /// lblDOB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDOB;
-
-        /// <summary>
-        /// RequiredFieldValidator4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
-
-        /// <summary>
-        /// RangeValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
-
-        /// <summary>
-        /// tbxDOB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxDOB;
-
-        /// <summary>
-        /// lblNumber control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumber;
+        protected global::System.Web.UI.WebControls.Label lblPassword;
 
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -141,13 +78,40 @@ namespace iHospital
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
-        /// tbxNumber control.
+        /// tbxPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxNumber;
+        protected global::System.Web.UI.WebControls.TextBox tbxPassword;
+
+        /// <summary>
+        /// lblSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSignUp;
+
+        /// <summary>
+        /// hlStaffSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlStaffSignUp;
+
+        /// <summary>
+        /// lblStaffSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStaffSignUp;
 
         /// <summary>
         /// btnSignUp control.
@@ -157,14 +121,5 @@ namespace iHospital
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSignUp;
-
-        /// <summary>
-        /// ValidationSummary1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
     }
 }
